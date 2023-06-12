@@ -15,8 +15,8 @@ spec:
     spec: 
       containers:
       - name: qsk-pod
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
-        image: nigelpoulton/qsk-book:1.0
+        image: wassim/qsk-book:1.0
 
